@@ -1,0 +1,69 @@
+<T3DataStructure>
+    <meta>
+    <langDisable>1</langDisable>
+    </meta>
+    <sheets>
+        <pconf>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>Allgemeine Einstellungen</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.ff.displayType>
+                        <TCEforms>
+                            <label>Display Typ</label>
+                            <config>
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">User View</numIndex>
+                                        <numIndex index="1">user</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">Admin View</numIndex>
+                                        <numIndex index="1">admin</numIndex>
+                                    </numIndex>
+
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </settings.ff.displayType>
+                </el>
+            </ROOT>
+        </pconf>
+        <exconf>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>Extra Content</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.ff.title>
+                        <TCEforms>
+                            <label>Headline</label>
+                            <config>
+                                <type>input</type>
+                                <size>20</size>
+                                <max>400</max>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.ff.title>
+                    <settings.ff.content>
+                        <TCEforms type="array">
+                            <config>
+                                <type>text</type>
+                                <rows>5</rows>
+                                <cols>30</cols>
+                                <eval>trim</eval>
+                                <enableRichtext>1</enableRichtext>
+                            </config>
+                        </TCEforms>
+                    </settings.ff.content>
+                </el>
+            </ROOT>
+        </exconf>
+    </sheets>
+</T3DataStructure>

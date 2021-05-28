@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:guestbook/Resources/Private/Language/locallang" date="2021-05-11T17:17:54Z" product-name="guestbook">
+		<header/>
+		<body>
+			<trans-unit id="tx_guestbook_domain_model_message" >
+				<source>Message</source>
+			</trans-unit>
+			<trans-unit id="tx_guestbook_domain_model_message.content" >
+				<source>Content</source>
+			</trans-unit>
+			<trans-unit id="tx_guestbook_domain_model_message.author" >
+				<source>Author</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

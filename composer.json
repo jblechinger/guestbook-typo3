@@ -1,0 +1,32 @@
+{
+    "name": "jb/guestbook",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "authors": [
+        {
+            "name": "Jahn Blechinger",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^10.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jb\\Guestbook\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jb\\Guestbook\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "typo3-ter/guestbook": "self.version"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "guestbook"
+        }
+    }
+}

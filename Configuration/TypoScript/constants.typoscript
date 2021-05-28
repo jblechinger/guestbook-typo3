@@ -1,0 +1,14 @@
+plugin.tx_guestbook_guestbookfe {
+    view {
+        # cat=plugin.tx_guestbook_guestbookfe/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:guestbook/Resources/Private/Templates/
+        # cat=plugin.tx_guestbook_guestbookfe/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:guestbook/Resources/Private/Partials/
+        # cat=plugin.tx_guestbook_guestbookfe/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:guestbook/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_guestbook_guestbookfe//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}

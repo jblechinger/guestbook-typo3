@@ -1,0 +1,113 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    370,
+                    229
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": true,
+                    "_default1_show": true,
+                    "_default2_new_create": true,
+                    "_default3_edit_update": true,
+                    "_default4_delete": true,
+                    "customActions": []
+                },
+                "name": "Message",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "1440606153024"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "content",
+                            "propertyType": "RichText",
+                            "uid": "392222417448"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "author",
+                            "propertyType": "String",
+                            "uid": "649694823835"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [],
+        "description": "",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 10.4.0-10.4.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "10.4.0-10.4.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "guestbook",
+        "name": "Guestbook",
+        "originalExtensionKey": "guestbook",
+        "originalVendorName": "Jb",
+        "persons": [
+            {
+                "company": "",
+                "email": "",
+                "name": "Jahn Blechinger",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "",
+                    "noncacheableActions": ""
+                },
+                "description": "",
+                "key": "guestbookfe",
+                "name": "Guestbook"
+            }
+        ],
+        "vendorName": "Jb"
+    },
+    "wires": [],
+    "storagePath": "\/Users\/jahn\/www\/Websites\/guestbook\/typo3conf\/ext\/",
+    "log": {
+        "last_modified": "2021-05-11 05:17",
+        "extension_builder_version": "9.11.0",
+        "be_user": " (1)"
+    }
+}
