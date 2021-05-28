@@ -21,4 +21,4 @@ You chose if you want to make the repository public or private.
 
 
 # Result
-### My implementation in typo3: [guestbook.blechinger.dev](https://guestbook.blechinger.dev/). ###
+### Demo: [guestbook.blechinger.dev](https://guestbook.blechinger.dev/). ###
