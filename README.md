@@ -24,6 +24,6 @@ You chose if you want to make the repository public or private.
 ### Demo: [guestbook.blechinger.dev](https://guestbook.blechinger.dev/). ###
 
 I created a simple extension with extension builder and added a frontend plugin. Then i added a dropdown to choose between admin and user view in flexform.
-I created a admin page secured with felogin. I impemented the plugin on start page and admin page. On both plugins i choose the right dropdown item and added a query in controller to check if plugin got admin selected or not.
+I created a admin page secured with felogin. I impemented the plugin on start page and admin page. On both plugins i choose the right dropdown item and added a query in controller and fluid to check if plugin got admin selected or not.
 
-(https://guestbook.blechinger.dev/fileadmin/userdaten/showcase.png)
+![Showcase Image](https://guestbook.blechinger.dev/fileadmin/userdaten/showcase.png)
